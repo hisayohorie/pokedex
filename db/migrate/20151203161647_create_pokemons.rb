@@ -8,6 +8,7 @@ class CreatePokemons < ActiveRecord::Migration
       t.integer :speed
       t.string :species
       t.string :growth_rate
+      t.string :image_url
 
       t.timestamps null: false
     end

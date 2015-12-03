@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20151203161647) do
     t.integer  "speed"
     t.string   "species"
     t.string   "growth_rate"
+    t.string   "image_url"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
