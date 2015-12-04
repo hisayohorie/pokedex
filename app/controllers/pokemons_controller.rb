@@ -9,7 +9,7 @@ class PokemonsController < ApplicationController
   			# 	{ name: pokemon.name, image_url: pokemon.image_url }
   			# end
 
-  			render json: @pokemons, only: [:name, :image_url]
+  			render json: @pokemons, only: [:id, :name, :image_url]
   		end
   	end
   end

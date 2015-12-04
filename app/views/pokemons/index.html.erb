@@ -1,9 +1,16 @@
 <h1>Pokedex!</h1>
 
-<ul class="pokemon-list">
-	<% @pokemons.each do |pokemon| %>
-		<li class="pokemon">
-			<%= link_to pokemon.name, pokemon_path(pokemon) %>
-		</li>
-	<% end %>
-</ul>
+<div id="pokemon-detail-container"></div>
+
+<ul class="pokemon-list"></ul>
+
+<script id="pokemon-list-item" type="text/x-handlebars-template">
+	<li class="pokemon">
+		<a href="/pokemons/{{id}}">{{name}}</a>
+	</li>
+</script>
+
+<script id="pokemon-detail" type="text/x-handlebars-template">
+	<img src="{{image_url}}">
+	<h1>{{name}}</h1>
+</script>
