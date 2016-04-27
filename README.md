@@ -2,6 +2,8 @@
 
 This is your opportunity to make your own Pokemon API and create a dyanmic and interactive front-end for it.
 
+You can see a live demo of what we're building at [bitmaker-pokedex.herokuapp.com](https://bitmaker-pokedex.herokuapp.com/).
+
 Provided in this code is a seed file that will populate your database with 100 Pokemon objects. That's the only model in this app. Each Pokemon character has an `image_url` and some properties, like `name`, `attack`, `defense`, etc. Check the `schema.rb` for all of the fields.
 
 ## Setup
